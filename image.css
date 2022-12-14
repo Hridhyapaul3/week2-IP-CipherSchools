@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url(../leaf.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position-x: -10%;
+    background-position-y: 20px;*/
+    background: url(../leaf.jpg) no-repeat 10% 10px / 100px,
+    url(../ice_cream.jpg) no-repeat center / 100vw 138vh;
+    
+}
+article {
+    background-color: rgb(18, 161,18);
+    width: 70%;
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;
+    top: 20;
+    left: 30%;
+    color: #fff;
+}
+
+
+article h1  {
+
+            font-size: 30px ;
+           
+}
+article p{
+
+       font-size: 30px;
+}

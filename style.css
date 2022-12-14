@@ -1,0 +1,54 @@
+
+/*universal selector*/
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+strong{
+    font-size: 20px;
+}
+p{
+    color:#251749;
+    background-color: #F56EB3;
+    /* Absolute units */
+    width: 20px;
+    /* Relative units*/
+    width: 70vw;
+    /*The numbered values with no units */
+    margin: 0;
+    line-height: 1.2;
+}
+
+div {
+  
+      transform: rotate(0deg);
+      width: calc(100% - 20px);
+      background-image: url(../ice_cream.jpg);
+      background-position: center;
+      background-size: cover;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: blue;
+}
+
+.heading{
+    background-color: aquamarine;
+}
+#one{
+    font-size: 30px;
+}
+.div p{
+    font-size: 30px;
+}
+.container{
+    font-style: italic;
+}

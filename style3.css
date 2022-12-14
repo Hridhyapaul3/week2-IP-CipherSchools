@@ -1,0 +1,26 @@
+*{
+    color: green; 
+}
+p{
+   color: red !important;
+}
+
+p{
+   /* This will be prefered */
+   /* color: blueviolet; */
+   font-size: 50px;
+   font-size: 60px;
+}
+.para {
+   /*color: black; */
+}
+
+#para {
+    color: purple; 
+}
+/* combination */
+
+/* Des */
+header p {
+   color: royalblue !important;;
+}
